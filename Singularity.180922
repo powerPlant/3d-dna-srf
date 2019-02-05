@@ -35,4 +35,4 @@ Version 180922
   rm -rf /lastz*
 
 %runscript
-  run-asm-pipeline.sh "$@"
+  exec run-asm-pipeline.sh "$@"
